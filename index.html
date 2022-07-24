@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="public/css/style.css"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="src/icofont/icofont.min.css">
+   
+<title>Restaurante  </title>
+</head>
+  <style>
+      body
+      {
+        background-image: url('src/img/fondo2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+  </style>
+  
+<body>
+        <div class="row">
+            <div class="col-md-2 g-0 navbar-expand-md"> 
+               <nav class="navbar sticky-top con-menu pb-3">
+                <div class="container-fluid mimenu " > <!-- mimenu se creo para la opacidad se pueda ver -->
+                  <div class="col-md-12 nav justify-content-center p-4">
+                  <a class="" href="index.html"><img  width="175px" height="175px" class="rounded-pill d-inline-block align-text-top border border-white border-3" src="src/img/Ay Maria!.png" alt=""></a>
+                </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse nav justify-content-center p-4 " id="collapsibleNavbar">
+                    <ul class="nav flex-column">
+                      <li class="nav-item p-2  btn btn-outline-warning">
+                        <a class="nav-link" href= "index.html"><img src="src/img/home.png" alt="Food" class="img_icon">Inicio</a>
+                      </li>
+                    <li class="nav-item p-2 btn btn-outline-warning">
+                      <a class="nav-link" href= "comida.html"><img src="src/img/food.png" alt="Food" class="img_icon">Comida</a>
+                    </li>
+                    <li class="nav-item p-2 btn btn-outline-warning">
+                      <a class="nav-link" href="bebida.html"><img src="src/img/drink.png" class="img_icon" alt="Drink">Bebidas</a>
+                    </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              
+            </div> 
+             <!-- ======================= Segundo contenedor ====================================================== -->
+          <div class="col-md-10 g-0">
+            <div class="container-fluid g-0 tamaño_carousel"> <!-- g-0 => sirve para que abarque toda la pantalla -->
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/img/pareja.jpg" class="img_carousel d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fondo-texto">
+                  <h5>Disfruta en pareja</h5>
+                  <p>Tenemos promociones especiales para ti.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/2.jpg" class="img_carousel d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fondo-texto">
+                  <h5>Paella</h5>
+                  <p>Nuestra nueva creacion de paella para que puedas disfrutarla en familia</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/3.jpg" class="img_carousel d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fondo-texto">
+                  <h5>Camarones al ajillo</h5>
+                  <p>Utilizando nuestro ingrediente secreto</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/4.jpg" class="img_carousel d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fondo-texto">
+                  <h5>Toda clase de bebidas </h5>
+                  <p>Ya sea para disfrutar con familia o amigos </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           <!-- ================================================ -->
+
+          <div class="col-md-12 g-0 border border-dark border-3">
+            <div class="contenedor">
+                <img src="src/img/banner.png" width="100%" height="100%" display="block" alt="">
+            </div>
+                </div>
+        </div>
+     <!-- ================  BOTONES DE menu promociones ====================== -->
+     <div class="container-fluid col-md-12 col-sm-12 bg-light p-5"> 
+      <ul class="nav nav-tabs nav justify-content-center py-2" role="tablist">
+        <li class="nav-item px-4"> 
+          <img  data-bs-toggle="tab" href="#home" class=" active  btn btn-outline-info img-boton img-fluid  rounded-circle" src="src/img/boton1.png" alt="">
+        </li>
+
+        <li class="nav-item px-4"> 
+          <img  data-bs-toggle="tab" href="#menu1" class=" btn btn-outline-info img-boton img-fluid  rounded-circle" src="src/img/boton2.png" alt="">
+        </li>
+
+        <li class="nav-item px-4"> 
+          <img  data-bs-toggle="tab" href="#menu2" class="  btn btn-outline-info img-boton img-fluid  rounded-circle" src="src/img/boton3.png" alt="">
+        </li>
+        
+        
+      </ul>
+
+      <div class="tab-content nav justify-content-center">
+        <div id="home" class="container tab-pane active"><br>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="src/img/1.jpg"  class="img-fluid mx-auto rounded"  width="300px" height="100%" alt="">
+              </div>
+              <div class="col-md-6">
+                  <p>
+                    <h1> Come todo lo que puedas</h1>
+                    <h5>
+                      Te invitamos a nuestro All you Can It todos los jueves a partir de las 11:00Am hasta las 3:00PM
+                      comparte con tu familia y amigos
+                    </h5>
+                  </p>
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="src/img/familia.png" class="img-fluid rounded m-0"  width="300px" height="100%" alt="">
+              </div>
+              <div class="col-md-6 ">
+                  <p>
+                    <h1> Disfruta en familia nuestros combos </h1>
+                    <h5>
+                      Puedes compartir nuestros 3 diferentes combos especiales
+
+                      <b>Combo #1</b>
+                        <ul>
+                          <li>1 Lbs de carne de res </li>
+                          <li>1 Lbs de pechuguita de pollo </li>
+                          <li>4 Pescados fritos grandes </li>
+                          <li>8 porciones de arroz </li>
+                          <li> 1 balde de Soda o Té</li>
+                          <li>Aguacate, queso y tortillas fritas</li>
+                          por solo: $40.00
+                        </ul>
+
+                        <b>Combo #2</b>
+                        <ul>
+                          <li>1/2 Lbs de carne de res </li>
+                          <li> 2 cocteles de concha o camaron </li>
+                          <li>4 Pescados fritos grandes </li>
+                          <li>8 porciones de arroz </li>
+                          <li> 1 balde de Soda o Té</li>
+                          <li>Aguacate, queso y tortillas fritas</li>
+                          por solo: $30.00
+                        </ul>
+                    </h5>
+                  </p>
+              </div>
+            
+            </div>
+
+          </div>
+
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="src/img/pareja.jpg"  class="img-fluid mx-auto rounded"  width="300px" height="100%" alt="">
+              </div>
+              <div class="col-md-6">
+                  <p>
+                    <h1> Date un Break con tu pareja</h1>
+                    <h5>
+                     Puedes darte el break que necesitas por 2 dias y una noche por un precio especial
+                     <ul>
+                      <b>2 dias y una noche con desayuno incluido</b>
+                      <li> Incluye estadia por 2 dias y una noche </li>
+                      <li> 2 Desayunos a eleccion en menu </li>
+                      <li> 2 Bebidas (Te o Jugo natural)</li>
+                      Por tan solo: $55:00
+                     </ul>
+                    </h5>
+                  </p>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- =========================CARD MENU =========================================== -->
+      
+  <div class="container fondo-menu"><!-- fondo menu se hizo para darle background --> 
+        <div class="row">
+          <div class="col-md-4 p-4 ">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 p-4">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 p-4">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 p-4">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="card" style="width: 20rem;">
+              <img src="src/img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+   </div>
+      
+
+
+
+     </div>
+</div>
+<div class="container-fluid bg-dark pt-5 p-5">
+  <div class="row ">
+    <div class="col-md-4 ">
+      <ul>
+        <a href=""><img src="src/img/Ay Maria!.png"  class="rounded-circle pb-3" width="200px" height="200px" alt=""></a>
+        <li>
+          <a href=""> Quienes somos</a>
+        </li>
+        <li>
+          <a href=""> Sucursales</a>
+        </li>
+        <hr>
+        <li class="">  
+          <a href=""><i class="icofont-facebook icofont-3x"></i></a>
+          <a href=""><i class="icofont-instagram icofont-3x"></i></a>
+          <a href=""><i class="icofont-linkedin icofont-3x"></i></a>
+          <a href=""><i class="icofont-twitter icofont-3x"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li>
+          <h4>Servicios</h4>
+          
+          <li><a href="">Promociones </a></li>
+          <li><a href="comida.html">Menu</a></li>
+          <li><a href="bebida.html">Bebidas</a></li>
+          <li><a href="">Horarios</a></li>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=colegio ceren&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.kokagames.com/fnf-friday-night-funkin-mods/">Friday Night Funkin Mods</a></div><style>.mapouter{position:relative;text-align:right;width:300px;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:300px;}.gmap_iframe {width:300px!important;height:300px!important;}</style></div>
+    </div>
+
+  </div>
+
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="myscript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
